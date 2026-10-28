@@ -1,20 +1,17 @@
-# IQRA Tube (hosted version)
+# IQRA Tube (hosted version, API key lagbe na)
 
-Channel add korle video gulo nije theke YouTube theke load hoy, ar app er bhitor e cholay.
+Channel add korle video gulo nije theke YouTube er public feed theke load hoy, ar app er bhitor e cholay.
 
-## 1. YouTube API key
-1. console.cloud.google.com e jao, notun project banao.
-2. "YouTube Data API v3" Enable koro.
-3. Credentials > Create credentials > API key.
+## 1. GitHub e upload
+Ei folder er BHITOR er shob file/folder (public, netlify, package.json, netlify.toml, README.md) ekta notun GitHub repo te upload koro.
 
-## 2. GitHub e upload
-Ei pura folder ta ekta notun GitHub repo te upload koro.
+## 2. Netlify te deploy
+1. app.netlify.com > Add new project > Import an existing project > GitHub > repo bachho.
+2. Environment variables e ekta dao: ADMIN_PASS = tomar pochondo moto password.
+3. Deploy.
 
-## 3. Netlify te deploy
-1. app.netlify.com > Add new site > Import from Git > repo bachho.
-2. Site configuration > Environment variables e duto dao:
-   - YT_API_KEY = tomar API key
-   - ADMIN_PASS = tomar pochondo moto admin password
-3. Deploy. Tarpor site e giye Admin > password dao > channel link add koro.
+## 3. Use
+Site e Admin > password dao > channel link add koro (https://youtube.com/@name).
+Link na kaj korle channel ID (UC diye shuru) paste koro.
 
-Channel link format: https://youtube.com/@name
+Prottek channel er shorboshesh ~15 ta video dekhabe, 30 minute por por update hoy.
